@@ -1,0 +1,13 @@
+# Core
+ultralytics>=8.3.0          # YOLO11, ByteTrack, BoT-SORT built-in
+opencv-python>=4.10.0
+numpy>=1.26.0
+torch>=2.2.0                # CPU wheel; install GPU wheel separately if needed
+torchvision>=0.17.0
+
+# Optional – uncomment for GPU (CUDA 12.x)
+# torch==2.3.0+cu121 --extra-index-url https://download.pytorch.org/whl/cu121
+# torchvision==0.18.0+cu121
+
+# Optional – Apple Silicon (MPS)
+# torch>=2.2.0               # already listed above; MPS support is built-in

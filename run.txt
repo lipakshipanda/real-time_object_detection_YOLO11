@@ -1,0 +1,11 @@
+# Install dependencies (once)
+pip install -r requirements.txt
+
+# Run with webcam
+python main.py
+
+# Run with a video file
+python main.py --source data\sample.mp4
+
+# Run with YOLO11s model
+python main.py --model yolo11s.pt
