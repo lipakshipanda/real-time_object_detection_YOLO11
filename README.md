@@ -6,31 +6,7 @@ original starter project.
 
 ---
 
-## What's new vs the original
 
-| Feature | Original | Advanced |
-|---------|----------|----------|
-| YOLO version | v8n (original project) | **YOLO11** (n / s / m / l / x) |
-| Tasks | detect only | **detect / segment / pose / OBB** |
-| Tracker | basic | ByteTrack **+** BoT-SORT (switchable) |
-| FPS counter | single-frame | **30-frame rolling average** |
-| Confidence control | fixed | **live ±0.05 with + / − keys** |
-| Class filter | ✗ | **`--classes person car …`** |
-| ROI zone | ✗ | **Polygon ROI with alpha overlay** |
-| Virtual line counter | ✗ | **IN / OUT crossing counter** |
-| Object trails | ✗ | **Alpha-faded centroid trails** |
-| Per-class HUD | ✗ | **Live count panel per class** |
-| Segmentation masks | ✗ | **Coloured alpha overlays** |
-| Pose keypoints | ✗ | **Drawn on body joints** |
-| Screenshot | ✗ | **S key → timestamped PNG** |
-| Video recording | ✗ | **R key → MP4 toggle** |
-| Pause / resume | ✗ | **P key** |
-| Device auto-select | ✗ | **CUDA → MPS → CPU** |
-| Frame skipping | ✗ | **`--skip N` for perf tuning** |
-| Config file | ✗ | **`configs/default.ini`** |
-| End-of-run stats | ✗ | **Total detections, avg ms** |
-
----
 
 ## Quick start
 
